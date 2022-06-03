@@ -1,4 +1,4 @@
-# SCCM_Collec_Notification
+# SCCM_Collection_Notification
 
 ## Summary
 

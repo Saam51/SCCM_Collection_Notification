@@ -55,10 +55,11 @@ In the body template, we have two variable :
 ### :rocket: 3. Execute script
 For execute the script, go to the folder containing the script and execute like below :
 
->.\SCCM_Collec_Notification.ps1 -TemplateName "Your_Template_Name" -CollectionName "Collection_Sccm_1" -TitleMail "Test Email" -MailType "Information"
+`.\SCCM_Collec_Notification.ps1 -TemplateName "Your_Template_Name" -CollectionName "Collection_Sccm_1" -TitleMail "Test Email" -MailType "Information"`
 
 
 For example, an email to the computer with Windows updates late :
->.\SCCM_Collec_Notification.ps1 -TemplateName "Update_Windows10_Late" -CollectionName "Windows10_Update_Late" -TitleMail "Windows Update Late" -MailType "Alert"
+
+`.\SCCM_Collec_Notification.ps1 -TemplateName "Update_Windows10_Late" -CollectionName "Windows10_Update_Late" -TitleMail "[IT] - Windows Update Alert" -MailType "Alert"`
 
 After, the script open Notepad++ automatly and you will could add your content in the mail body. 
